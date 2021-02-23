@@ -1,5 +1,6 @@
-package com.oopsys.book.springboot.config.auth;
+package com.oopsys.book.springboot.config;
 
+import com.oopsys.book.springboot.config.auth.LoginUserArgumentResolver;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
