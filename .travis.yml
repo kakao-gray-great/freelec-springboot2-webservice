@@ -1,13 +1,10 @@
 language: java
 jdk:
-  - openjdk11
+  - openjdk8
 
 branches:
   only:
     - master
-
-before_install:
-  - chmod +x gradlew
 
 # Travis CI 서버의 Home
 cache:
@@ -22,4 +19,3 @@ notifications:
   email:
     recipients:
       - operasystem6@naver.com
-
